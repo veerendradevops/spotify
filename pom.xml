@@ -195,7 +195,7 @@
 				<configuration>
 					<imageName>${docker.registry}/${docker.group}/test/${artifactId}:${version.property}-test
                         </imageName>
-					<repository>379564858066.dkr.ecr.us-east-1.amazonaws.com/testrepo</repository>
+					<repository>379564858066.dkr.ecr.us-east-1.amazonaws.com/vkrepo</repository>
 					<tag>${build.number}</tag>
 				</configuration>
 			</plugin>
